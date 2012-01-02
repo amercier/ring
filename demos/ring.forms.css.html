@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>ring.forms.css</title>
+		<link rel="stylesheet" href="tests.css">
+		<link rel="stylesheet" href="../src/ring.forms.css">
+		<script src="../lib/prefixfree.js"></script>
+	</head>
+	<body>
+	
+<h1>ring.forms.css</h1>
+
+<h2>Form elements</h2>
+<form>
+	<p>
+		<label>
+			input[type="text"]
+			<input type="text" value="default value" />
+		</label>
+	</p>
+	<p>
+		<label>
+			input[type="password"]
+			<input type="password" value="default value" />
+		</label>
+	</p>
+	<p>
+		<label>
+			input[type="checkbox"]
+			<input type="checkbox" checked="checked" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" checked="checked" />
+			input[type="checkbox"]
+		</label>
+	</p>
+	<p>
+		<label>
+			<input name="radio1" type="radio" /> input[type="radio"]<br />
+			<input name="radio1" type="radio" checked="checked" /> input[type="radio"]<br />
+			<input name="radio1" type="radio" /> input[type="radio"]<br />
+			<input name="radio1" type="radio" /> input[type="radio"]
+		</label>
+	</p>
+	<p>
+		<label>
+			input[type="radio"] <input name="radio2" type="radio" /><br />
+			input[type="radio"] <input name="radio2" type="radio" checked="checked" /><br />
+			input[type="radio"] <input name="radio2" type="radio" /><br />
+			input[type="radio"] <input name="radio2" type="radio" />
+		</label>
+	</p>
+	<p class="form-controls">
+		Form controls:<br />
+		<button class="ok">OK</button>
+		<button class="cancel">Cancel</button>
+	</p>
+</form>
+
+<h2>Fieldsets</h2>
+<form>
+	
+</form>
+
+	</body>
+</html>
